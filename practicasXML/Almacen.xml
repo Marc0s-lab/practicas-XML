@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"? standalone="yes"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<almacen>
+    <productos>
+        <articulo>
+            <nombre>Refresco 1LT</nombre>
+            <precio>1.25</precio>
+            <cantidad>59</cantidad>
+        </articulo>
+            
+        <articulo>
+            <nombre>Agua 1LT</nombre>
+            <precio>0.85</precio>
+            <cantidad>25</cantidad>   
+        </articulo>
+    </productos>
+</almacen>
+

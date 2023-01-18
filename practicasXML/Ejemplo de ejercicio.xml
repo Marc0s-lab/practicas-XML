@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<centro id="44555448783">
+    <contacto>
+        <alumnos>
+            <alumno dni="12345678A">
+                <nombre>Marcos</nombre>
+                <apellidos>Cabral Peralta</apellidos>
+                <telefono>666******</telefono>
+                <matricula moneda="€">
+                    <subtotal>10000</subtotal>
+                    <descuento>20%</descuento>
+                    <total>8000</total>
+                </matricula>
+                <emails>
+                    <email>cesurformacion@cesur.com</email>
+                </emails>
+            </alumno>
+            <alumno>
+                <nombre>Marcos</nombre>
+                <apellidos>Cabral Peralta</apellidos>
+                <telefono>666******</telefono>
+                <matricula moneda="€">
+                    <subtotal>10000</subtotal>
+                    <descuento>20%</descuento>
+                    <total>8000</total>
+                </matricula>
+                <emails>
+                    <email>cesurformacion@cesur.com</email>
+                </emails>
+            </alumno>
+            <alumno>
+                <nombre>Marcos</nombre>
+                <apellidos>Cabral Peralta</apellidos>
+                <telefono>666******</telefono>
+                <matricula moneda="€">
+                    <subtotal>10000</subtotal>
+                    <descuento>20%</descuento>
+                    <total>8000</total>
+                </matricula>
+                <emails>
+                    <email>cesurformacion@cesur.com</email>
+                </emails>
+            </alumno>
+        </alumnos>
+    </contacto>
+</centro>
+

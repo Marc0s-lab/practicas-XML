@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<horario>
+    <ciclo>DAM</ciclo>
+    <curso>Primero</curso>
+    <aula>Taller de Administración</aula>
+    <dia nombre="lunes">
+        <clase hora="8:00">Base de datos</clase>
+        <clase hora="9:00">Sistemas informáticos</clase>
+        <clase hora="10:00">Programación</clase>
+        <clase hora="11:30">FOL</clase>
+        <clase hora="13:30">Lenguaje de Marcas</clase>
+        <clase hora="14:30">Entornos</clase>
+    </dia>
+    <dia nombre="martes">
+        <clase></clase>
+    </dia>
+    <dia nombre="miercoles">
+        <clase></clase>
+    </dia>
+    <dia nombre="jueves">
+        <clase></clase>
+    </dia>
+    <dia nombre="viernes">
+        <clase></clase>
+    </dia>
+</horario>
+
+<modulos>
+    <modulo>
+        <nombre>Lenguaje de marcas</nombre>
+        <horas>
+            <hora dia="lunes">9:00</hora>
+            <hora dia="miercoles">10:00</hora>
+            <hora dia="miercoles">11:30</hora>
+        </horas>
+    </modulo>
+    <modulo>
+        <nombre>Programación</nombre>
+        <horas>
+            <hora dia="lunes">10:00</hora>
+            <hora dia="miercoles">8:00</hora>
+            <hora dia="jueves">11:30</hora>
+            <hora dia="viernes">11:30</hora>
+        </horas>
+    </modulo>
+</modulos>

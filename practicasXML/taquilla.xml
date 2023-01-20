@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<taquilla pais="España">
+    <fechas>
+        <inicio>25/12/2008</inicio>
+        <fin>27/12/2008</fin>
+    </fechas>
+    <peliculas>
+        <pelicula posicion="1">
+            <titulo>Trolls 2: Gira mundial</titulo>
+            <genero>Animación</genero>
+            <semanas>10</semanas>
+            <recaudacion>
+                <semanal>34.000</semanal>
+                <total>2.492.000</total>
+            </recaudacion>
+        </pelicula>
+        <pelicula posicion="2">
+            <titulo>Otra vuelta de tuerca</titulo>
+            <genero>Terror</genero>
+            <semanas>6</semanas>
+            <recaudacion>
+                <semanal>22.000</semanal>
+                <total>154.000</total>
+            </recaudacion>
+        </pelicula>
+    </peliculas>
+</taquilla>
+

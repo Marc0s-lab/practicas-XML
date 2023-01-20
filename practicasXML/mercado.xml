@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<reserva fecha="10/12/2024" origen="web">
+    <cliente>
+        <nombre></nombre>
+        <telefono></telefono>
+        <email></email>
+    </cliente>
+    <fecha>
+        
+    </fecha>
+    <personas>
+        <persona></persona>
+        <persona></persona>
+        <persona></persona>
+        <persona></persona>
+    </personas>
+    <presupuesto></presupuesto>
+    <comentario></comentario>
+</reserva>
+

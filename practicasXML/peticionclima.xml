@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<clima>
+    <peticion user="6456" req="78412">
+        <region>Málaga</region>
+        <fecha>27/01/2023</fecha>
+    </peticion>
+    
+    <respuesta req="78412">
+        <status>error</status>
+        <prevision>nubes</prevision>
+        <descripcion>Intervalos nubosos con bajo riesgo de lluvias</descripcion>
+        <informacion>
+            <temperatura>12</temperatura>
+            <presion>878</presion>    
+        </informacion>
+    </respuesta>
+</clima>
+

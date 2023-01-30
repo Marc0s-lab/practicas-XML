@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<nominas>
+    <nomina>
+        <empresa></empresa>
+        <domicilio></domicilio>
+        <codigoss></codigoss>
+        <cif></cif>
+    </nomina>
+    <trabajador>
+        <nombre>Luis Gutierrez Alonso</nombre>
+        <cat_profesional>Ingeniero</cat_profesional>
+        <nif></nif>
+        <grupocotizacion></grupocotizacion>
+        <antiguedad></antiguedad>
+        <afiliacionss></afiliacionss>
+    </trabajador>
+    <liquidacion>
+        <fecha_ini>01/03/2011</fecha_ini>
+        <fecha_fin>31/03/201</fecha_fin>
+        <t_dias>30</t_dias>
+    </liquidacion>
+    <devengos>
+        <percepsionessalariales>
+            <base>1500</base>
+            <complementos>
+                <incentivos>192</incentivos>
+            </complementos>
+            <h_extra>
+                <estructurales>60</estructurales>
+                <f_mayor>100</f_mayor>
+                <total>160</total>
+            </h_extra>
+        </percepsionessalariales>
+        <t_devengado>1852</t_devengado>
+    </devengos>
+    <deducciones>
+        <aportaciones>
+            <conceptos>
+                <c_comunes porcentaje="4,70%">
+                    <base>1942</base>
+                    <aportaciones>91,27</aportaciones>
+                </c_comunes>
+                <desempleo porcentaje="1,55%">
+                    <base>2102</base>
+                    <aportaciones>32,58</aportaciones>
+                </desempleo>
+                <fp porcentaje="0,10%">
+                    <base>2102</base>
+                    <aportaciones>2,10</aportaciones>
+                </fp>
+                <h_extra>
+                    <f_mayor porcentaje="2,00%">
+                        <base>100</base>
+                        <aportaciones>2,00</aportaciones>
+                    </f_mayor>
+                    <otros porcentaje="4,70%">
+                        <base>60</base>
+                        <aportaciones>2,82</aportaciones>
+                    </otros>
+                </h_extra>
+                <t_aportaciones>130,77</t_aportaciones>
+            </conceptos>
+            <irpf porcentaje="13,00%">
+                <base>1852</base>
+                <aportaciones>240,76</aportaciones>
+            </irpf>
+            <t_adeducir>371,53</t_adeducir>
+            <liquido>1480,47</liquido>
+        </aportaciones>    
+    </deducciones>
+    <base_cotizacion_ss>
+        <r_mensual>1692</r_mensual>
+        <prorrata>250</prorrata>
+        <total>1942</total>
+    </base_cotizacion_ss>
+</nominas>
+

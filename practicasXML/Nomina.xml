@@ -5,14 +5,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
 -->
 
 
-
-<nominas>
-    <nomina>
-        <empresa></empresa>
+<nomina>
+    <datos>
+        <empresa>Trazatech</empresa>
         <domicilio></domicilio>
-        <codigoss></codigoss>
+        <codigo_ss></codigo_ss>
         <cif></cif>
-    </nomina>
+    </datos>
     <trabajador>
         <nombre>Luis Gutierrez Alonso</nombre>
         <cat_profesional>Ingeniero</cat_profesional>
@@ -27,7 +26,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
         <t_dias>30</t_dias>
     </liquidacion>
     <devengos>
-        <percepsionessalariales>
+        <percep_salariales>
             <base>1500</base>
             <complementos>
                 <incentivos>192</incentivos>
@@ -37,7 +36,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
                 <f_mayor>100</f_mayor>
                 <total>160</total>
             </h_extra>
-        </percepsionessalariales>
+        </percep_salariales>
+        <percep_nosalariales>
+            <indemnizaciones></indemnizaciones>
+            <prest_empresa></prest_empresa>
+            <prest_ss></prest_ss>
+            <otras_percep></otras_percep>
+        </percep_nosalariales>
         <t_devengado>1852</t_devengado>
     </devengos>
     <deducciones>
@@ -80,5 +85,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
         <prorrata>250</prorrata>
         <total>1942</total>
     </base_cotizacion_ss>
-</nominas>
-
+    <base_a_cotizar>1942</base_a_cotizar>
+    <base_conti_comunes_pro>
+        <por_salario>2102</por_salario>
+    </base_conti_comunes_pro>
+    <base_cot_adicional>160</base_cot_adicional>
+    <base_irpf>1852</base_irpf>
+</nomina>

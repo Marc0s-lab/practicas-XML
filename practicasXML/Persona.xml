@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE Persona[
+    <!ELEMENT Persona (persona+)>
+    
+    <!ELEMENT persona (nombre, apellidos, email+, parentesco) >
+    <!ATTLIST persona dni CDATA #IMPLIED >
+    <!ATTLIST persona edad CDATA #IMPLIED >
+    
+    <!ELEMENT nombre (#PCDATA) >
+    <!ELEMENT apellidos (#PCDATA) >
+    <!ELEMENT email (#PCDATA) >
+    <!ELEMENT parentesco (#PCDATA) >
+]>
+
+<Persona>
+    <persona dni="45678291B" edad="56">
+        <nombre>Vito</nombre>
+        <apelidos>Corleone</apelidos>
+        <email>vito@cesurformacion.com</email>
+        <email>vito@gamil.com.com</email>
+        <parentesco>Padrino</parentesco>
+    </persona>
+    <persona dni="45678291A" edad="42">
+        <nombre>Tony</nombre>
+        <apelidos>Soprano</apelidos>
+        <email>tony@cesurformacion.com</email>
+        <email>tony@gmail.com</email>
+        <parentesco>Capo</parentesco>
+    </persona>
+    <persona dni="" edad="">
+        <nombre></nombre>
+        <apelidos></apelidos>
+        <email></email>
+        <parentesco></parentesco>
+    </persona>
+</Persona>
+

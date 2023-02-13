@@ -1,0 +1,64 @@
+
+{
+    "informacion general":{
+        "ciclo":"DAM",
+        "curso":"primero",
+        "tutor": "Jon Oyarzun Zamora"
+    },
+    "informacion modulo":{
+        "nombre modulo":"Lenguaje de Marcas",
+        "profesor":"Francisco Romero",
+        "estadisticas":{
+            "aprobados":30,
+            "suspensos":0
+        }
+    },
+    "alumnos":[
+        {
+            "nombre": "Marcos",
+            "nota_t1": "10",
+            "nota_t2": "9",
+            "nota_3": "10",
+            "notas": [10,9,10]
+        },
+        {
+            "nombre": "Pepe",
+            "nota_t1": "6",
+            "nota_t2": "9",
+            "nota_3": "8",
+            "notas": [6,9,8]
+        },
+        {}
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

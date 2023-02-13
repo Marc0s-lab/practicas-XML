@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reserva[
+<!ELEMENT reserva (nombre, telefono, email, fecha, personas, presupuesto, comentarios) >
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT telefono (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT fecha (#PCDATA) >
+<!ELEMENT personas (#PCDATA) >
+<!ELEMENT presupuesto (#PCDATA) >
+<!ELEMENT comentarios (#PCDATA) >
+]>
+
+
+<reserva>
+    <nombre></nombre>
+    <telefono></telefono>
+    <email></email>
+    <fecha></fecha>
+    <personas></personas>
+    <presupuesto></presupuesto>
+    <comentarios></comentarios>
+</reserva>
+

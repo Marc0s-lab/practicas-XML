@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<pedido id="74823729">    
+    <cliente>Francisco Romero</cliente>
+    <contenido>    
+        <articulo>PlayStation5</articulo>
+        <articulo>Hogwarts Legacy</articulo>
+        <articulo>Prince of Persia</articulo>
+    </contenido>    
+    <entrega>        
+        <tipovia>Calle</tipovia>        
+        <lugar>Huerta</lugar>        
+        <numero>3</numero>        
+        <piso>1</piso>        
+        <letra>b</letra>        
+        <fecha>19/1/23</fecha>    
+    </entrega>
+</pedido>
+

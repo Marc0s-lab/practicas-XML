@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE alumnos[
+<!ELEMENT alumnos (nombre, apellidos, dni, modulos) >
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT apellidos (#PCDATA) >
+<!ELEMENT dni (#PCDATA) >
+<!ELEMENT modulos (modulo+) >
+<!ELEMENT modulo (#PCDATA) >
+<!ATTLIST modulo nombre CDATA #REQUIRED >
+]>
+
+
+
+<alumnos>
+    <nombre>Marcos</nombre>
+    <apellidos>Cabral Peralta</apellidos>
+    <dni>77556668454B</dni>
+    <modulos>
+        <modulo nombre="sistemas">10</modulo>
+        <modulo nombre="basedatos">7</modulo>
+        <modulo nombre="fol">8</modulo>
+        <modulo nombre="marcas">8</modulo>
+        <modulo nombre="programacion">7</modulo>
+        <modulo nombre="entornos">8</modulo>
+    </modulos>
+</alumnos>
+
